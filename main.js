@@ -1,5 +1,5 @@
 $("document").ready(function() {
-        $(".menu-item").mouseover(function() {
+        $(".menu-item").mouseenter(function() {
             if (!$(this).hasClass("lingua")) {
                 $(this).children("#attivo").addClass("colore");
                 $(this).children('.dropdown-menu').stop().slideDown(300);
@@ -10,7 +10,7 @@ $("document").ready(function() {
                 $(this).children('.dropdown-menu').stop().slideDown(300);
             }
         })
-            $(".menu-item").mouseout(function() {
+            $(".menu-item").mouseleave(function() {
                 if (!$(this).hasClass("lingua")) {
                     $(this).children("#attivo").removeClass("colore");
                     $(this).children('.dropdown-menu').stop().slideUp(300);
