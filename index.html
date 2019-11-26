@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="main.js" charset="utf-8"></script>
         <link rel="stylesheet" href="style.css">
         <title>Menu Dropdown</title>
@@ -10,40 +11,80 @@
     <body>
         <div class="container">
             <div class="header-left">
-                <img src="https://www.boolean.careers/images/common/logo.png" alt="Boolean Careers">
+                <img src="https://d1ic4altzx8ueg.cloudfront.net/niche-builder/5d3ad32b60789.png" alt="Boolean Careers">
                 <a href="#">PERSONALE</a>
                 <a href="#">BUSINESS</a>
             </div>
             <div class="header-right">
                 <div class="menu">
-                    <div class="menu-item">
-                        <a class="active" href="#">Tariffazione</a>
+                    <div id="attivo" class="menu-item">
+                        <a href="#">Tariffazione</a>
                     </div>
                     <div class="menu-item">
-                        <a class="active" href="#">Accounts</a>
+                        <a id="attivo" href="#">Accounts</a>
                         <div class="dropdown-menu">
                             <div class="dropdown-menu-item">
-                                <a class="active" href="#">Standard</a>
+                                <a href="#">Standard</a>
                             </div>
                             <div class="dropdown-menu-item">
-                                <a class="active" href="#">Premium</a>
+                                <a href="#">Premium</a>
                             </div>
                             <div class="dropdown-menu-item">
-                                <a class="active" href="#">Metal</a>
+                                <a href="#">Metal</a>
                             </div>
                         </div>
                     </div>
                     <div class="menu-item">
-                        <a class="active" href="#">Prodotti</a>
+                        <a id="attivo" href="#">Prodotti</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-menu-item">
+                                <a href="#">Trasferimenti di denaro</a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">Salvadanaio</a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">Gestione budget</a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">Perk<span class="testosopra">beta</span></a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">Criptovaluta</a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">Assicurazione Smartphone</a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">Assicurazione medica internazionale</a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">API di open banking</a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">Apple Pay<span class="testosopra">Nuovo</span></a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a href="#">Donazioni<span class="testosopra">Nuovo</span></a>
+                            </div>
+                        </div>
                     </div>
                     <div class="menu-item">
-                        <a class="active" href="#">Azienda</a>
+                        <a id="attivo" href="#">Azienda</a>
                     </div>
                     <div class="menu-item">
-                        <a class="active" href="#">Aiuto</a>
+                        <a id="attivo" href="#">Aiuto</a>
                     </div>
-                    <div class="menu-item">
-                        <a class="active" href="#">IT</a>
+                    <div class="menu-item lingua">
+                        <a id="attivo" href="#">IT<span class="fa fa-angle-down"></span></a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-menu-item">
+                                <a  href="#">Italiano</a>
+                            </div>
+                            <div class="dropdown-menu-item">
+                                <a  href="#">Inglese</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

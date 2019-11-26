@@ -50,7 +50,7 @@
     color: rgb(139, 149, 158);
 }
 
-.hover {
+#attivo.colore {
     color: rgb(25, 28, 31);
 }
 
@@ -66,6 +66,22 @@
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
 .dropdown-menu-item a{
-    padding: 1rem 2rem;
+    padding: 16px 32px;
+    white-space: nowrap;
+}
+
+.dropdown-menu-item a:hover{
+    color: rgb(25, 28, 31);
+}
+.testosopra {
+    text-transform: none;
+    position: relative;
+    font-size: 0.75rem;
+    color: rgb(235, 0, 141);
+    bottom: 1rem;
+    line-height: normal;
+    font-weight: 600;
+    margin-right: -0.8rem;
 }
