@@ -48,6 +48,7 @@
 .menu-item a{
     text-decoration: none;
     color: rgb(139, 149, 158);
+    padding: 10px 0;
 }
 
 .menu-item a.colore {
