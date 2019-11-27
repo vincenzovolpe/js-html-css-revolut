@@ -50,7 +50,7 @@
     color: rgb(139, 149, 158);
 }
 
-#attivo.colore {
+.menu-item a.colore {
     color: rgb(25, 28, 31);
 }
 

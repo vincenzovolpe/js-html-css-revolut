@@ -6,7 +6,6 @@ $("document").ready(function() {
             }
             $(this).children("a").addClass("colore");
             $(this).children('.dropdown-menu').stop().slideDown(300);
-
         })
             $(".menu-item").mouseleave(function() {
                 if ($(this).hasClass("lingua")) {
@@ -15,6 +14,5 @@ $("document").ready(function() {
                 }
                 $(this).children("a").removeClass("colore");
                 $(this).children('.dropdown-menu').slideUp(300);
-
             })
 })
