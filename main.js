@@ -4,7 +4,7 @@ $("document").ready(function() {
                 $(this).children("a").children("span").removeClass("fa fa-angle-down");
                 $(this).children("a").children("span").addClass("fa fa-angle-up");
             }
-            $(this).children("#attivo").addClass("colore");
+            $(this).children("a").addClass("colore");
             $(this).children('.dropdown-menu').stop().slideDown(300);
 
         })
@@ -13,7 +13,7 @@ $("document").ready(function() {
                     $(this).children("a").children("span").removeClass("fa fa-angle-up");
                     $(this).children("a").children("span").addClass("fa fa-angle-down");
                 }
-                $(this).children("#attivo").removeClass("colore");
+                $(this).children("a").removeClass("colore");
                 $(this).children('.dropdown-menu').slideUp(300);
 
             })
